@@ -127,11 +127,11 @@ namespace CryptoNote
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
         const uint64_t DEFAULT_MIXIN_V0 = 3;
 
-        const uint64_t DEFAULT_MIXIN_V1 = MAXIMUM_MIXIN_V1 0;
+        const uint64_t DEFAULT_MIXIN_V1 = MAXIMUM_MIXIN_V1 ;
 
-        const uint64_t DEFAULT_MIXIN_V2 = MAXIMUM_MIXIN_V2 1;
+        const uint64_t DEFAULT_MIXIN_V2 = MAXIMUM_MIXIN_V2 ;
 
-        const uint64_t DEFAULT_MIXIN_V3 = MAXIMUM_MIXIN_V3 2;
+        const uint64_t DEFAULT_MIXIN_V3 = MAXIMUM_MIXIN_V3 ;
 
         const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(10);
 
