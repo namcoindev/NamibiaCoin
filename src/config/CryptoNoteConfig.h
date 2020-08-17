@@ -378,6 +378,7 @@ namespace CryptoNote
 
     const char *const SEED_NODES[] = {
         "157.245.174.176:11777", // seed1
+        "142.93.201.191:11777", //seed3
         "138.68.31.205:11777", // seed2
 
     };
