@@ -55,7 +55,7 @@ namespace CryptoNote
 
         const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 20;
 
-        const unsigned EMISSION_SPEED_FACTOR = 9;
+        const unsigned EMISSION_SPEED_FACTOR = 20;
 
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
