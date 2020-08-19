@@ -180,12 +180,12 @@ namespace CryptoNote
         /* 25 trillion atomic, or 250 billion TRTL -> Max supply / mixin+1 outputs */
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 25'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 2500000000000;
 
         /* 100 billion atomic, or 1 billion TRTL */
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 10'000'000'00;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1000000000000;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 2000000;
 
