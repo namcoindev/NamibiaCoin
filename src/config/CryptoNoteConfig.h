@@ -86,7 +86,7 @@ namespace CryptoNote
         const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 6;
 
         /* TODO: Remove? */
-        const uint64_t MINIMUM_FEE = UINT64_C(100);
+        const uint64_t MINIMUM_FEE = UINT64_C(1000);
 
         /* Fee per byte is rounded up in chunks. This helps makes estimates
          * more accurate. It's suggested to make this a power of two, to relate
@@ -98,10 +98,10 @@ namespace CryptoNote
          * something like 2 because it makes for pretty resulting fees
          * - 5 TRTL vs 5.12 TRTL. You can read this as.. the fee per chunk
          * is 500 atomic units. The fee per byte is 500 / chunk size. */
-        const double MINIMUM_FEE_PER_BYTE_V1 = 200.00 / FEE_PER_BYTE_CHUNK_SIZE;
+        const double MINIMUM_FEE_PER_BYTE_V1 = 0.0001 / FEE_PER_BYTE_CHUNK_SIZE;
 
         /* Height for our first fee to byte change to take effect. */
-        const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 200;
+        const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 0;
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1 = 0;
