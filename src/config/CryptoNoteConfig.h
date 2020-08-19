@@ -110,18 +110,18 @@ namespace CryptoNote
 
         const uint64_t MINIMUM_MIXIN_V2 = 2;
 
-        const uint64_t MAXIMUM_MIXIN_V2 = 3;
+        const uint64_t MAXIMUM_MIXIN_V2 = 7;
 
         const uint64_t MINIMUM_MIXIN_V3 = 2;
 
-        const uint64_t MAXIMUM_MIXIN_V3 = 3;
+        const uint64_t MAXIMUM_MIXIN_V3 = 7;
 
         /* The heights to activate the mixin limits at */
-        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 10;
+        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 0;
 
-        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 30;
+        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 0;
 
-        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 50;
+        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 3;
 
         /* The mixin to use by default with zedwallet and turtle-service */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
