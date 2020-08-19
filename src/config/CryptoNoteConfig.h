@@ -98,7 +98,7 @@ namespace CryptoNote
          * something like 2 because it makes for pretty resulting fees
          * - 5 TRTL vs 5.12 TRTL. You can read this as.. the fee per chunk
          * is 500 atomic units. The fee per byte is 500 / chunk size. */
-        const double MINIMUM_FEE_PER_BYTE_V1 = 50.00 / FEE_PER_BYTE_CHUNK_SIZE;
+        const double MINIMUM_FEE_PER_BYTE_V1 = 5.00 / FEE_PER_BYTE_CHUNK_SIZE;
 
         /* Height for our first fee to byte change to take effect. */
         const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 200;
@@ -117,11 +117,11 @@ namespace CryptoNote
         const uint64_t MAXIMUM_MIXIN_V3 = 3;
 
         /* The heights to activate the mixin limits at */
-        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 100;
+        const uint32_t MIXIN_LIMITS_V1_HEIGHT = 10;
 
-        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 500;
+        const uint32_t MIXIN_LIMITS_V2_HEIGHT = 30;
 
-        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 1000;
+        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 50;
 
         /* The mixin to use by default with zedwallet and turtle-service */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -139,7 +139,7 @@ namespace CryptoNote
 
         const uint32_t DUST_THRESHOLD_V2_HEIGHT = MIXIN_LIMITS_V2_HEIGHT;
 
-        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 500;
+        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 30;
 
         const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
