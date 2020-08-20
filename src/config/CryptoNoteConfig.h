@@ -98,7 +98,7 @@ namespace CryptoNote
          * something like 2 because it makes for pretty resulting fees
          * - 5 TRTL vs 5.12 TRTL. You can read this as.. the fee per chunk
          * is 500 atomic units. The fee per byte is 500 / chunk size. */
-        const double MINIMUM_FEE_PER_BYTE_V1 = 0.0001 / FEE_PER_BYTE_CHUNK_SIZE;
+        const double MINIMUM_FEE_PER_BYTE_V1 = 0.001000 / FEE_PER_BYTE_CHUNK_SIZE;
 
         /* Height for our first fee to byte change to take effect. */
         const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 0;
@@ -110,11 +110,11 @@ namespace CryptoNote
 
         const uint64_t MINIMUM_MIXIN_V2 = 2;
 
-        const uint64_t MAXIMUM_MIXIN_V2 = 7;
+        const uint64_t MAXIMUM_MIXIN_V2 = 4;
 
         const uint64_t MINIMUM_MIXIN_V3 = 2;
 
-        const uint64_t MAXIMUM_MIXIN_V3 = 7;
+        const uint64_t MAXIMUM_MIXIN_V3 = 4;
 
         /* The heights to activate the mixin limits at */
         const uint32_t MIXIN_LIMITS_V1_HEIGHT = 0;
@@ -253,7 +253,7 @@ namespace CryptoNote
 
         /* Block heights we are going to have hard forks at */
         const uint64_t FORK_HEIGHTS[] = {
-            4392, // 0
+            520, // 0
             8684, // 1
             13176, // 2
             17568, // 3
