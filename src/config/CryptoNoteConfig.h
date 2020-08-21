@@ -177,13 +177,13 @@ namespace CryptoNote
 
         const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 1300000;
 
-        /* 25 trillion atomic, or 250 billion TRTL -> Max supply / mixin+1 outputs */
-        /* This is enforced on the daemon side. An output > 250 billion causes
+        /* 25 Million atomic, or 25 Million NAM -> Max supply / mixin+1 outputs */
+        /* This is enforced on the daemon side. An output > 25 million causes
          * an invalid block. */
         const uint64_t MAX_OUTPUT_SIZE_NODE   = 25'000'000,00;
 
-        /* 100 billion atomic, or 1 billion TRTL */
-        /* This is enforced on the client side. An output > 1 billion will not
+        /* 10 million atomic, or 10 million NAM */
+        /* This is enforced on the client side. An output > 10 million will not
          * be created in a transaction */
         const uint64_t MAX_OUTPUT_SIZE_CLIENT = 10'000'000'00;
 
@@ -274,7 +274,7 @@ namespace CryptoNote
         };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
-        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 16;
+        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 0;
 
         const uint64_t FORK_HEIGHTS_SIZE = sizeof(FORK_HEIGHTS) / sizeof(*FORK_HEIGHTS);
 
