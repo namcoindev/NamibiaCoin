@@ -180,7 +180,7 @@ namespace CryptoNote
         /* 25 Million atomic, or 25 Million NAM -> Max supply / mixin+1 outputs */
         /* This is enforced on the daemon side. An output > 25 million causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 25'000'000,00;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 25'000'000'00;
 
         /* 10 million atomic, or 10 million NAM */
         /* This is enforced on the client side. An output > 10 million will not
