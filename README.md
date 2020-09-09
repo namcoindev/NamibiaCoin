@@ -27,15 +27,15 @@ To use NamCoin, you'll need a way to connect to the network, and a wallet to hol
 
 **Click here to download: http://latest.namcoin.org**
 
-To compile from sourcecode yourself, [click here for build instructions](https://github.com/namcoindev/NamCoin/blob/development/COMPILE.md).
+To compile from sourcecode yourself, [click here for build instructions](https://github.com/namcoindev/coin/blob/development/COMPILE.md).
 
 ### Getting Started Fast
 
 Everyone starts somewhere. If you're new or returning, you'll probably want to get in sync with the network so you can use your funds. Syncing from your own node is faster than syncing from a remote node. Here are some handy links to get you there as soon as possible.
 
--   **Use checkpoints** - Checkpoints help your node sync faster, [learn more](http://checkpoints.NamCoin.lol/use.html) or [download here](http://checkpoints.NamCoin.lol)
+-   **Use checkpoints** - Checkpoints help your node sync faster, [learn more](http://checkpoints.NamCoin.lol/use.html) or [download here](http://checkpoints.namcoin.org)
 -   **Learn things** - Syncing will take time, to help pass that time [learning how to use NAM`s](https://docs.namcoin.org/)
--   **Backup your keys** - You can generate a wallet right inside the software, or use [this generator](https://namcoin.org/wallet/) that will make a [printable physical paper wallet](https://docs.NamCoin.lol/guides/wallets/making-a-wallet) to put in a safe place for later.
+-   **Backup your keys** - You can generate a wallet right inside the software, or use [this generator](https://namcoin.org/wallet/) that will make a [printable physical paper wallet](https://docs.namcoin.org/guides/wallets/making-a-wallet) to put in a safe place for later.
 
 ### A note for contributing developers
 
