@@ -2,8 +2,6 @@
 
 #### NamCoin is a fun, fast, and easy way to send money to friends and businesses
 
-[![Discord](https://img.shields.io/discord/388915017187328002?label=NamCoin%20Discord)](http://chat.NamCoin.org) [![GitHub All Releases](https://img.shields.io/github/downloads/NamCoin/NamCoin/total?label=Downloads)](http://latest.NamCoin.lol) [![GitHub contributors](https://img.shields.io/github/contributors-anon/NamCoin/NamCoin?label=Contributors)](https://github.com/namcoindev/NamCoin/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/NamCoin/NamCoin?label=Issues)](https://github.com/namcoindev/NamCoin/issues) ![GitHub stars](https://img.shields.io/github/stars/NamCoin/NamCoin?label=Github%20Stars)
-
 ### Contributing to NamCoin
 
 We are a community of people across the world giving our time to make this software better. There are many ways you can help or join us:
@@ -15,11 +13,6 @@ We are a community of people across the world giving our time to make this softw
 -   **Everyone else just click the ★ star at the top of this repository 😊 It really helps us out!**
 
 For anyone else wishing to help the community or who needs answers to questions not covered in this document, join us in our [Discord Chat](http://chat.namcoin.org) here.
-
-### NamCoin Build Branches
-
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/namcoindev/coin/Build/master) **Master**
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/namcoindev/coin/Build/development) **Development**
 
 ### Installing NamCoin
 
